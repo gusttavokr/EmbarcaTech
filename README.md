@@ -133,3 +133,10 @@ Drivers de motores, Drivers de Led, Emissores, etc.
 Pesquisar sobre:
 
 Arquitetura de Harvard != Arquitetura de Von Neumann
+
+### 3. Aplicação dos SEs
+- Indústria
+- Segurança
+- Agronegócio
+- Health Care
+- Logística
