@@ -34,7 +34,6 @@ apresentadas neste capítulo. RS: A tecnologia nada mais é do que o estudo conc
 
 
 ## Unidade 2 - Sistemas Embarcados
-
 ### 1. O que é um Sistema Embarcado?
 Um sistema embarcado é um sistema de computação projetado para uma função específica.
 
