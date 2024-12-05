@@ -104,7 +104,7 @@ Já as **Interfaces** são quem fazem a ligação entre os periféricos e as MCU
 ***Atuadores(Estudando)***\
 Drivers de motores, Drivers de Led, Emissores, etc.
 
-### Diferença entre Microcontrolador e Microprocessador?
+### *Diferença entre Microcontrolador e Microprocessador?*
 **Microprocessador:**\
 O microprocessador trabalha no processamento de tarefas, tempo de execução e agilidade onde será implementado no Sistema Embarcado em que execute tarefas diversificadas.
 
@@ -123,12 +123,13 @@ Sua principal característica é a unidade de processamento cujo possui **um nú
 Já nessa arquitetura, sua principal característica é **a maior gama de tarefas que é capaz de executar**, como consequência, a eficiência de execução cai. Seu microcontrolador é o CISC, que possui um **acesso a memória lenta**, compacta, e que realiza esse acesso um de cada vez.
 
 ### 3. Arquitetura em Camadas
-![image](https://github.com/user-attachments/assets/eeda6b74-8810-4422-9eff-537a80a001d8)\
-Esse modelo é composto de 3 camadas:\
-1. Camada de Hardware: Nessa camada, é incluído todos os componentes físicos do microcontrolador.\
-**Qual a diferença de Flash, SRAM e DRAM?**
-A SRAM (Memória Estática), é a memória que acessa dados temporários de forma rápida. Mas cara.
-A DRAM (Memória Dinâmica), é a memória que consegue armazenar mais dados. Mais lenta, e mais usada.
+![alttext](image.png)\
+Esse modelo é composto de 3 camadas:
+1. Camada de Hardware: Nessa camada, é incluído todos os componentes físicos do microcontrolador.
+
+    **Qual a diferença de Flash, SRAM e DRAM?**
+A SRAM (Memória Estática), é a memória que acessa dados temporários de forma rápida. Mas cara.\
+A DRAM (Memória Dinâmica), é a memória que consegue armazenar mais dados. Mais lenta, e mais usada.\
 Já a memória Flash, é usada para armazenamento permanente, que armazena até desligado.
 
 3. Camada de Software básico: Aqui, temos o firmware, drivers, e dependendo, um sistema operacional.
