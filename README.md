@@ -7,8 +7,8 @@
   Repositório de estudos para o curso EAD - EmbarcaTech (Residência Tecnloógica em Sistemas Embarcados)
 </div>
 
-## Unidade 1 - Introdução a educação a distância
-### 1. Tecnologia e sua Relação com a humanidade
+# Unidade 1 - Introdução a educação a distância
+## 1. Tecnologia e sua Relação com a humanidade
 A unidade 1 explora a origem da tecnologia como um todo. Desde a seleção das ferramentas naturais até a própria fabricação. O termo tecnologia surgiu na Idade Média, como um derivado das habilidades práticas, chamado **ars mechanica.**
 
 Partindo para a atualidade, o dicionário de Houaiss define como "teoria geral e/ou estudo sistemático sobre técnicas, processos, métodos meios e instrumentos de um ou mais ofícios ou domínios da atividade humana". Resumidamente: Mostra como a tecnologia não se trata apenas de uma ferramenta, mas principalmente os processos e sistemas.
@@ -18,11 +18,9 @@ A tecnologia se divide em 3 classificações:
 2. Tecnologias Sociais(Flexíveis): Psicologia, sociologia, etc;
 3. Tecnologias Conceituais: Informática, teorias de sistema, metodologias;
 
-### 2. Tecnologias da Informação e Comunicação (TICs) no cotidiano
+## 2. Ensino à distância (Em construção)
 
-
-
-### Atividades práticas da Unidade
+## Atividades práticas da Unidade
 1) Escreva sua própria definição de tecnologia e compare-a com as definições
 apresentadas neste capítulo. RS: A tecnologia nada mais é do que o estudo conceitual e sistemático do uso das ferramentas as quais surgem e acompanham a evolução da humanidade, de tal forma que agregue significamente em seu meio.
 
@@ -33,11 +31,11 @@ apresentadas neste capítulo. RS: A tecnologia nada mais é do que o estudo conc
 4) Github como uma TIC positiva, atua muito bem tanto para a prática profissional ou como uma comunidade ativa na área de desenvolvimento. Por fim, para uma TIC negativa, menciono o Instagram, que como uma rede social, traz consigo grandes problemas como a autocomparação entre os usuários, ou a dependência de uso.
 
 
-## Unidade 2 - Sistemas Embarcados
-### 1. O que é um Sistema Embarcado?
+# Unidade 2 - Sistemas Embarcados
+## 1. O que é um Sistema Embarcado?
 Um sistema embarcado é um sistema de computação projetado para uma função específica.
 
-### 2. Classificação:
+### 1. Classificação:
 
 - Sistemas embarcados autônomos:
 - Sistemas embarcados não determinísticos:
@@ -51,24 +49,23 @@ Um sistema embarcado é um sistema de computação projetado para uma função e
 - Sistemas embarcados portáteis
 - Sistemas emvarcados distribuidos
 
-### 3. Tipos de Aplicações:
+### 2. Tipos de Aplicações:
 
 - Propósito geral:
 - Sistemas de controle:
 - Processamento de sinais:
 - Comunicações e Redes
 
-![alt text](image.png)\
 Um exemplo, é quando o carro dá ré, e apita supondo a proximidade de algum objeto em hipótese de colidir.
 
-### 4. Classificação dos Sistemas em Tempo Real
+### 3. Classificação dos Sistemas em Tempo Real
 - Soft Real Time:
 As tarefas são executadas em tempo específico, sem prejuízo de funcionamento grave se este tempo não for cumprido.
 
 - Hard Real Time:
 As tarefas são executadas em tempo específico para cada uma e no caso da falha de alguma tarefa, há consequências graves para o sistema.
 
-### 5. Características dos Sistemas Embarcados
+### 4. Características dos Sistemas Embarcados
 - Características específicas, por exemplo: alguns não podem parar;
 - Ser o menor possível;
 - Uso de microcontroladores devido o consumo restrito de mémoria, tamanho, e velocidade de processamento;
@@ -79,7 +76,7 @@ As tarefas são executadas em tempo específico para cada uma e no caso da falha
 - Hardware sob medida para que o sistema funcione perfeitamente em sua aplicação
 - Interdependente do Firmware e do Hardware
 
-### 6. Restrições
+### 5. Restrições
 - Baixo custo;
 - Interface simples;
 - Dimensão reduzida;
@@ -90,7 +87,7 @@ As tarefas são executadas em tempo específico para cada uma e no caso da falha
 - Baixa potência;
 - Tempo de resposta;
 
-### 7. Restrições de Rede
+### 6. Restrições de Rede
 - Bluetooth;
 - Bluetooth Audio;
 - Bluetooth Sensor;
@@ -100,42 +97,53 @@ As tarefas são executadas em tempo específico para cada uma e no caso da falha
 - Alta perda de pacotes
 - Prejuízo para o uso de pacotes maiores
 
-## 3. Arquitetura de Sistemas Embarcados
+## 2. Arquitetura de Sistemas Embarcados
 
 Existe um Software e um Hardware em um Sistema Embarcado
 
-Software terá:
-- Firmware
-- Sistema Embarcado
-- Debug
-- Drivers
+**Software terá:**
+1. Firmware - É um software (programa, script), gravado no microcontrolador que determina o que seu SE irá fazer.
+2. Sistema Embarcado
+3. Debug
+4. Drivers
 
-Hardware terá:
-- CPU
-- Memória
-- Interfaces
-- Circuitos Auxiliares
+**Hardware terá:**
+1. CPU
+2. Memória
+3. Interfaces
+4. Circuitos Auxiliares
 
 ### 1. Componentes de um Sistema Embarcado
-- Microcontrolador\
-O microcontrolador incorpora funções em um unico chip, e pode converter analógicos digitais (ADC) e digitais analógicos (DAC), memória de instruções ou dados, geradores de clock, etc.
-- Memória Externa
-- Periféricos e Interfaces\
+**Microcontrolador**\
+O microcontrolador incorpora funções em um unico chip, memória de instruções ou dados, geradores de clock, etc.
+
+***Memória Externa(Estudando)***
+
+**Periféricos e Interfaces**\
 Os **Periféricos** são componentes de um SE, que podem dar entrada e saída, acessando o microcontrolador.\
 Já as **Interfaces** são quem fazem a ligação entre os periféricos e as MCU's, exemplos: Interface pra teclado, interface LCD, etc.
-- Sensores
 
-- Atuadores\
+***Sensores(Estudando)***
+
+***Atuadores(Estudando)***\
 Drivers de motores, Drivers de Led, Emissores, etc.
 
-#### 2. Arquitetura do Hardware
-Pesquisar sobre:
+### Diferença entre Microcontrolador e Microprocessador?
+**Microprocessador:**\
+O microprocessador trabalha no processamento de tarefas, tempo de execução e agilidade onde será implementado no Sistema Embarcado em que execute tarefas diversificadas.
 
-Arquitetura de Harvard != Arquitetura de Von Neumann
+**Microcontrolador:**\
+Já o microcontrolador, trabalha de forma mais generalizada. É o chip que se responsabiliza em tarefas específicas, de preferência para o baixo consumo de energia com ênfase nessa tarefa em específico.
 
-### 3. Aplicação dos SEs
-- Indústria
-- Segurança
-- Agronegócio
-- Health Care
-- Logística
+Usa-se um ou outro dependendo das necessidades do Sistema Embarcado.
+
+### 2. Arquitetura do Hardware
+Algumas das principais arquiteturas são:
+
+**Arquitetura Harvard Risc:**\
+Sua principal característica é a unidade de processamento cujo possui **um número restrito de tarefas, o que resulta em uma execução de tarefas mais rápida.** Seu microcontrolador é o RISC que possui um acesso de memória mais ágil.
+
+**Arquitetura Von Neumann:**\
+Já nessa arquitetura, sua principal característica é **a maior gama de tarefas que é capaz de executar**, como consequência, a eficiência de execução cai. Seu microcontrolador é o CISC, que possui um **acesso a memória lenta**, compacta, e que realiza esse acesso um de cada vez.
+
+### 3. Arquitetura em Camadas (Em construção)
