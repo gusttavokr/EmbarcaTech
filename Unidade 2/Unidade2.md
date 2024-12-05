@@ -96,13 +96,15 @@ O microcontrolador incorpora funções em um unico chip, memória de instruçõe
 ***Memória Externa(Estudando)***
 
 **Periféricos e Interfaces**\
-Os **Periféricos** são componentes de um SE, que podem dar entrada e saída, acessando o microcontrolador.\
+Os **Periféricos** são componentes de um SE, que podem dar entrada e saída, acessando o microcontrolador.
+
 Já as **Interfaces** são quem fazem a ligação entre os periféricos e as MCU's, exemplos: Interface pra teclado, interface LCD, etc.
 
-***Sensores(Estudando)***
+**Sensores**\
+Os sensores são dispositivos que detectam sinais do ambiente e convertem em sinais elétricos que são processados no sistema. Seja som, temperatura, luz.
 
-***Atuadores(Estudando)***\
-Drivers de motores, Drivers de Led, Emissores, etc.
+**Atuadores**\
+Já os atuadores, é o contrário. Ele realiza ações de acordo com os sinais recebidos do ambiente. Drivers de motores, Drivers de Led, Emissores, etc.
 
 ### *Diferença entre Microcontrolador e Microprocessador?*
 **Microprocessador:**\
@@ -132,5 +134,7 @@ A SRAM (Memória Estática), é a memória que acessa dados temporários de form
 A DRAM (Memória Dinâmica), é a memória que consegue armazenar mais dados. Mais lenta, e mais usada.\
 Já a memória Flash, é usada para armazenamento permanente, que armazena até desligado.
 
-3. Camada de Software básico: Aqui, temos o firmware, drivers, e dependendo, um sistema operacional.
+3. Camada de Software básico: Aqui, temos o firmware, drivers, e dependendo, um sistema operacional.\
+
+
 4. Camada de aplicação: Já nessa, é a camada responsabilizada com a função que o SE irá executar.
