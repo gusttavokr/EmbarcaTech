@@ -14,3 +14,8 @@ Inicialmente, a aula síncrona se tratou mais de uma introdução a linguagem e 
 
 **Por que C?**\
 A linguagem de programação C é a maior linguagem em relação a eficiência de código. Como um sistema embarcado é focado em realizar funções específicas, é crucial que o código seja pequeno e eficiente.
+
+![alt text](image.png)
+
+**Observações:**\
+Algumas funções não funcionam no microcontrolador, como printf, então será usado outras funções.
