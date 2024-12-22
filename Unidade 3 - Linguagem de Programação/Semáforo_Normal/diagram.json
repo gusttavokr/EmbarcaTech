@@ -1,0 +1,77 @@
+{
+    "version": 1,
+    "author": "Gustavo Maia",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "wokwi-breadboard-half", "id": "bb1", "top": 6.6, "left": -294.8, "attrs": {} },
+      { "type": "board-pi-pico-w", "id": "pico1", "top": -3.25, "left": 157.15, "attrs": {} },
+      {
+        "type": "wokwi-resistor",
+        "id": "r1",
+        "top": 61.55,
+        "left": 57.6,
+        "attrs": { "value": "1000" }
+      },
+      {
+        "type": "wokwi-resistor",
+        "id": "r2",
+        "top": 80.75,
+        "left": 57.6,
+        "attrs": { "value": "1000" }
+      },
+      {
+        "type": "wokwi-resistor",
+        "id": "r3",
+        "top": 128.75,
+        "left": 57.6,
+        "attrs": { "value": "1000" }
+      },
+      {
+        "type": "wokwi-pushbutton",
+        "id": "btn1",
+        "top": -89.8,
+        "left": 249.6,
+        "attrs": { "color": "green" }
+      },
+      {
+        "type": "wokwi-led",
+        "id": "led1",
+        "top": -174,
+        "left": -79.8,
+        "rotate": 90,
+        "attrs": { "color": "red" }
+      },
+      {
+        "type": "wokwi-led",
+        "id": "led2",
+        "top": -135.6,
+        "left": -79.8,
+        "rotate": 90,
+        "attrs": { "color": "yellow" }
+      },
+      {
+        "type": "wokwi-led",
+        "id": "led3",
+        "top": -97.2,
+        "left": -79.8,
+        "rotate": 90,
+        "attrs": { "color": "limegreen" }
+      }
+    ],
+    "connections": [
+      [ "pico1:GND.1", "bb1:tn.25", "black", [ "h0" ] ],
+      [ "r1:2", "pico1:GP5", "green", [ "v0" ] ],
+      [ "r2:2", "pico1:GP9", "green", [ "v0" ] ],
+      [ "r3:2", "pico1:GP12", "green", [ "v0" ] ],
+      [ "led3:A", "bb1:21t.a", "green", [ "h0" ] ],
+      [ "led3:C", "bb1:tn.16", "green", [ "h0" ] ],
+      [ "led2:C", "bb1:tn.14", "green", [ "h0" ] ],
+      [ "led1:C", "bb1:tn.9", "green", [ "h0" ] ],
+      [ "led2:A", "bb1:18t.c", "green", [ "h0" ] ],
+      [ "led1:A", "bb1:13b.f", "green", [ "h0" ] ],
+      [ "r1:1", "bb1:21t.b", "green", [ "v0" ] ],
+      [ "r2:1", "bb1:18t.d", "green", [ "v0" ] ],
+      [ "r3:1", "bb1:13b.g", "green", [ "v0" ] ]
+    ],
+    "dependencies": {}
+  }
